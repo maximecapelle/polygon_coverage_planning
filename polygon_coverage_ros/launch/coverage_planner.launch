@@ -9,7 +9,7 @@
     <rosparam command="load" file="$(find polygon_coverage_ros)/cfg/coverage_planner.yaml"/>
 
     <!-- Load Map corner file -->
-    <rosparam command="load" file="$(find path_planning_pkg)/config/polygon_moo_crew.yaml"/>
+    <rosparam command="load" file="$(find mirte_launch_pkg)/map_info/polygon_moo_crew.yaml"/>
 
   </node>
 
